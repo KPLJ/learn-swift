@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C57F35C26EBAD95006DD356 /* PhotoManiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C57F35B26EBAD95006DD356 /* PhotoManiaApp.swift */; };
-		8C57F35E26EBAD95006DD356 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C57F35D26EBAD95006DD356 /* ContentView.swift */; };
-		8C57F36026EBAD96006DD356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C57F35F26EBAD96006DD356 /* Assets.xcassets */; };
-		8C57F36326EBAD96006DD356 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C57F36226EBAD96006DD356 /* Preview Assets.xcassets */; };
+		8C7279C226EBCB5000B716C5 /* SwiftUI_UserLocationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7279C126EBCB5000B716C5 /* SwiftUI_UserLocationApp.swift */; };
+		8C7279C426EBCB5000B716C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7279C326EBCB5000B716C5 /* ContentView.swift */; };
+		8C7279C626EBCB5100B716C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C7279C526EBCB5100B716C5 /* Assets.xcassets */; };
+		8C7279C926EBCB5100B716C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C7279C826EBCB5100B716C5 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8C57F35826EBAD95006DD356 /* PhotoMania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoMania.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C57F35B26EBAD95006DD356 /* PhotoManiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManiaApp.swift; sourceTree = "<group>"; };
-		8C57F35D26EBAD95006DD356 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8C57F35F26EBAD96006DD356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8C57F36226EBAD96006DD356 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8C57F36426EBAD96006DD356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C7279BE26EBCB5000B716C5 /* SwiftUI-UserLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-UserLocation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7279C126EBCB5000B716C5 /* SwiftUI_UserLocationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_UserLocationApp.swift; sourceTree = "<group>"; };
+		8C7279C326EBCB5000B716C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C7279C526EBCB5100B716C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C7279C826EBCB5100B716C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C7279CA26EBCB5100B716C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8C57F35526EBAD95006DD356 /* Frameworks */ = {
+		8C7279BB26EBCB5000B716C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,38 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8C57F34F26EBAD95006DD356 = {
+		8C7279B526EBCB5000B716C5 = {
 			isa = PBXGroup;
 			children = (
-				8C57F35A26EBAD95006DD356 /* PhotoMania */,
-				8C57F35926EBAD95006DD356 /* Products */,
+				8C7279C026EBCB5000B716C5 /* SwiftUI-UserLocation */,
+				8C7279BF26EBCB5000B716C5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8C57F35926EBAD95006DD356 /* Products */ = {
+		8C7279BF26EBCB5000B716C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C57F35826EBAD95006DD356 /* PhotoMania.app */,
+				8C7279BE26EBCB5000B716C5 /* SwiftUI-UserLocation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8C57F35A26EBAD95006DD356 /* PhotoMania */ = {
+		8C7279C026EBCB5000B716C5 /* SwiftUI-UserLocation */ = {
 			isa = PBXGroup;
 			children = (
-				8C57F35B26EBAD95006DD356 /* PhotoManiaApp.swift */,
-				8C57F35D26EBAD95006DD356 /* ContentView.swift */,
-				8C57F35F26EBAD96006DD356 /* Assets.xcassets */,
-				8C57F36426EBAD96006DD356 /* Info.plist */,
-				8C57F36126EBAD96006DD356 /* Preview Content */,
+				8C7279C126EBCB5000B716C5 /* SwiftUI_UserLocationApp.swift */,
+				8C7279C326EBCB5000B716C5 /* ContentView.swift */,
+				8C7279C526EBCB5100B716C5 /* Assets.xcassets */,
+				8C7279CA26EBCB5100B716C5 /* Info.plist */,
+				8C7279C726EBCB5100B716C5 /* Preview Content */,
 			);
-			path = PhotoMania;
+			path = "SwiftUI-UserLocation";
 			sourceTree = "<group>";
 		};
-		8C57F36126EBAD96006DD356 /* Preview Content */ = {
+		8C7279C726EBCB5100B716C5 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8C57F36226EBAD96006DD356 /* Preview Assets.xcassets */,
+				8C7279C826EBCB5100B716C5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,38 +72,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8C57F35726EBAD95006DD356 /* PhotoMania */ = {
+		8C7279BD26EBCB5000B716C5 /* SwiftUI-UserLocation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C57F36726EBAD96006DD356 /* Build configuration list for PBXNativeTarget "PhotoMania" */;
+			buildConfigurationList = 8C7279CD26EBCB5100B716C5 /* Build configuration list for PBXNativeTarget "SwiftUI-UserLocation" */;
 			buildPhases = (
-				8C57F35426EBAD95006DD356 /* Sources */,
-				8C57F35526EBAD95006DD356 /* Frameworks */,
-				8C57F35626EBAD95006DD356 /* Resources */,
+				8C7279BA26EBCB5000B716C5 /* Sources */,
+				8C7279BB26EBCB5000B716C5 /* Frameworks */,
+				8C7279BC26EBCB5000B716C5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PhotoMania;
-			productName = PhotoMania;
-			productReference = 8C57F35826EBAD95006DD356 /* PhotoMania.app */;
+			name = "SwiftUI-UserLocation";
+			productName = "SwiftUI-UserLocation";
+			productReference = 8C7279BE26EBCB5000B716C5 /* SwiftUI-UserLocation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8C57F35026EBAD95006DD356 /* Project object */ = {
+		8C7279B626EBCB5000B716C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					8C57F35726EBAD95006DD356 = {
+					8C7279BD26EBCB5000B716C5 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 8C57F35326EBAD95006DD356 /* Build configuration list for PBXProject "PhotoMania" */;
+			buildConfigurationList = 8C7279B926EBCB5000B716C5 /* Build configuration list for PBXProject "SwiftUI-UserLocation" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,42 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 8C57F34F26EBAD95006DD356;
-			productRefGroup = 8C57F35926EBAD95006DD356 /* Products */;
+			mainGroup = 8C7279B526EBCB5000B716C5;
+			productRefGroup = 8C7279BF26EBCB5000B716C5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C57F35726EBAD95006DD356 /* PhotoMania */,
+				8C7279BD26EBCB5000B716C5 /* SwiftUI-UserLocation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8C57F35626EBAD95006DD356 /* Resources */ = {
+		8C7279BC26EBCB5000B716C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C57F36326EBAD96006DD356 /* Preview Assets.xcassets in Resources */,
-				8C57F36026EBAD96006DD356 /* Assets.xcassets in Resources */,
+				8C7279C926EBCB5100B716C5 /* Preview Assets.xcassets in Resources */,
+				8C7279C626EBCB5100B716C5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8C57F35426EBAD95006DD356 /* Sources */ = {
+		8C7279BA26EBCB5000B716C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C57F35E26EBAD95006DD356 /* ContentView.swift in Sources */,
-				8C57F35C26EBAD95006DD356 /* PhotoManiaApp.swift in Sources */,
+				8C7279C426EBCB5000B716C5 /* ContentView.swift in Sources */,
+				8C7279C226EBCB5000B716C5 /* SwiftUI_UserLocationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8C57F36526EBAD96006DD356 /* Debug */ = {
+		8C7279CB26EBCB5100B716C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		8C57F36626EBAD96006DD356 /* Release */ = {
+		8C7279CC26EBCB5100B716C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,44 +262,44 @@
 			};
 			name = Release;
 		};
-		8C57F36826EBAD96006DD356 /* Debug */ = {
+		8C7279CE26EBCB5100B716C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"PhotoMania/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-UserLocation/Preview Content\"";
 				DEVELOPMENT_TEAM = 6ZGNUNB6JW;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = PhotoMania/Info.plist;
+				INFOPLIST_FILE = "SwiftUI-UserLocation/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wangj55.PhotoMania;
+				PRODUCT_BUNDLE_IDENTIFIER = "wangj55.SwiftUI-UserLocation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8C57F36926EBAD96006DD356 /* Release */ = {
+		8C7279CF26EBCB5100B716C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"PhotoMania/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-UserLocation/Preview Content\"";
 				DEVELOPMENT_TEAM = 6ZGNUNB6JW;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = PhotoMania/Info.plist;
+				INFOPLIST_FILE = "SwiftUI-UserLocation/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wangj55.PhotoMania;
+				PRODUCT_BUNDLE_IDENTIFIER = "wangj55.SwiftUI-UserLocation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8C57F35326EBAD95006DD356 /* Build configuration list for PBXProject "PhotoMania" */ = {
+		8C7279B926EBCB5000B716C5 /* Build configuration list for PBXProject "SwiftUI-UserLocation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C57F36526EBAD96006DD356 /* Debug */,
-				8C57F36626EBAD96006DD356 /* Release */,
+				8C7279CB26EBCB5100B716C5 /* Debug */,
+				8C7279CC26EBCB5100B716C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C57F36726EBAD96006DD356 /* Build configuration list for PBXNativeTarget "PhotoMania" */ = {
+		8C7279CD26EBCB5100B716C5 /* Build configuration list for PBXNativeTarget "SwiftUI-UserLocation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C57F36826EBAD96006DD356 /* Debug */,
-				8C57F36926EBAD96006DD356 /* Release */,
+				8C7279CE26EBCB5100B716C5 /* Debug */,
+				8C7279CF26EBCB5100B716C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8C57F35026EBAD95006DD356 /* Project object */;
+	rootObject = 8C7279B626EBCB5000B716C5 /* Project object */;
 }
