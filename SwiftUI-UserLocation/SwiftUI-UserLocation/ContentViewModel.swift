@@ -40,7 +40,7 @@ final class ContentViewModel: NSObject, ObservableObject, CLLocationManagerDeleg
             case .denied:
                 print("You have denied this app location permission. Go into settings to change it.")
             case .authorizedAlways, .authorizedWhenInUse:
-                region = MKCoordinateRegion(center: MapDetails.startingLocation, span: MapDetails.startingSpan)
+                region = MKCoordinateRegion(center: locationManager.location!.coordinate, span: MapDetails.startingSpan)
             @unknown default:
                 break
         }
